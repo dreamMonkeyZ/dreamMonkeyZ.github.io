@@ -1,3 +1,4 @@
 file second
 
 new branch
+master modify
