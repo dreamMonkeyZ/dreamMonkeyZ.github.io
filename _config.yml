@@ -53,8 +53,8 @@ index:
 
 # donate
 donate:
-  wechat: 'static/img/pay/wechat.png'
-  alipay: 'static/img/pay/alipay.png'
+  wechat: 'static/img/pay/wechat1.png'
+  alipay: 'static/img/pay/alipay1.png'
 
 # comment
 changyan:
