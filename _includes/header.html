@@ -1,6 +1,6 @@
 <div class="search-tool" style="position: fixed; top: 0px ; bottom: 0px; left: 0px; right:  0px;
       opacity: 0.95; background-color: #111111; z-index: 9999; display: none;">
-    <input type="text" class="form-control search-content" id="search-content" style="position: fixed; top: 60px" 
+    <input type="text" class="form-control search-content" id="search-content" style="position: fixed; top: 60px"
            placeholder="Search Blog"
            >
 
@@ -30,19 +30,13 @@
                     <ul class="nav navbar-nav navbar-right">
                         <li><a class="page-scroll" href="/blog/">{{ site.index.home }}</a></li>
 
-                        {% if page.title == site.index.python %}
+                        {% if page.title == site.index.php %}
                             <li class="active">
                         {% else %}
                             <li>
                         {% endif %}
-                            <a class="page-scroll" href="/python/">{{ site.index.python }}</a></li>
+                            <a class="page-scroll" href="/python/">{{ site.index.php }}</a></li>
 
-                        {% if page.title == site.index.linux %}
-                            <li class="active">
-                        {% else %}
-                            <li>
-                        {% endif %}
-                            <a class="page-scroll" href="/linux/">{{ site.index.linux }}</a></li>
 
                         {% if page.title == site.index.html %}
                             <li class="active">
@@ -51,19 +45,12 @@
                         {% endif %}
                             <a class="page-scroll" href="/html/">{{ site.index.html }}</a></li>
 
-                        {% if page.title == site.index.database %}
+                        {% if page.title == site.index.mysql %}
                             <li class="active">
                         {% else %}
                             <li>
                         {% endif %}
-                            <a class="page-scroll" href="/database/">{{ site.index.database }}</a></li>
-
-                        {% if page.title == site.index.mac %}
-                            <li class="active">
-                        {% else %}
-                            <li>
-                        {% endif %}
-                            <a class="page-scroll" href="/mac/">{{ site.index.mac }}</a></li>
+                            <a class="page-scroll" href="/database/">{{ site.index.mysql }}</a></li>
 
                         {% if page.title == site.index.life %}
                             <li class="active">
