@@ -19,14 +19,18 @@
   },
   "career":{
     "my_career": "My Career",
-    "ucloud": "Ucloud",
-    "ucloud_des": "In ucloud, I started to deal with servers and Linux system and use shell scripts to manage massive server.",
-    "ucloud_date": "Sep. 2015",
-    "ucloud_job": "Dev Ops",
-    "college": "Graduation",
-    "college_des": "At July 2015,I graduated from CSU and started my IT technology tour.",
-    "college_date": "Jul. 2015",
-    "college_job": "Student"
+    "first": "Ucloud",
+    "first_des": "In shanghai ,I got my first job dealing with ERP and reporting system. yep, so many friends in the same camp, happy studing and hard working.",
+    "first_date": "Jul. 2015",
+    "first_job": "Dev Ops",
+    "lemai": "lemai",
+    "lemai_des": "At July 2015,I graduated from CSU and started my IT technology tour.",
+    "lemai_date": "March. 2015",
+    "lemai_job": "Student",
+    "practice"  : "practice",
+    "practice_des": "In shanghai, I started my first coding practice in puyuan imformation which is a bank epibolic company.",
+    "practice_date": "Jul. 2015",
+    "practice_job": "Student"
   },
   "blog":{
     "my_blog": "My Blog"
