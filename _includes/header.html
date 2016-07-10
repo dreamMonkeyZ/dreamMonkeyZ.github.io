@@ -37,6 +37,12 @@
                         {% endif %}
                             <a class="page-scroll" href="/python/">{{ site.index.php }}</a></li>
 
+                        {% if page.title == site.index.mysql %}
+                            <li class="active">
+                        {% else %}
+                            <li>
+                        {% endif %}
+                            <a class="page-scroll" href="/database/">{{ site.index.mysql }}</a></li>
 
                         {% if page.title == site.index.html %}
                             <li class="active">
@@ -44,13 +50,6 @@
                             <li>
                         {% endif %}
                             <a class="page-scroll" href="/html/">{{ site.index.html }}</a></li>
-
-                        {% if page.title == site.index.mysql %}
-                            <li class="active">
-                        {% else %}
-                            <li>
-                        {% endif %}
-                            <a class="page-scroll" href="/database/">{{ site.index.mysql }}</a></li>
 
                         {% if page.title == site.index.life %}
                             <li class="active">

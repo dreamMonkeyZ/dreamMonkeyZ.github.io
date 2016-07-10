@@ -46,8 +46,8 @@ landing:
 # blog index
 index:
   home: 'Home'
-  python: 'Php'
-  linux: 'Mysql'
+  python: 'php'
+  linux: 'mysql'
   html: 'HTML'
   life: 'Life'
 
